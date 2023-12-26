@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIDEBAR WEBSITE</title>
+    <title>DYNAMICs SIDEBAR WEBSITE</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="menu" id="menu">
+            <i class="fas fa-times"></i>
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <div class="content" id="content">
+        <div class="container">
+            <h1>Register With Us</h1>
+            <form>
+                
+                <label> Name <span class="special">*</span></label>
+                <input type="text"/>
+                <label> Email<span class="special">*</span></label>
+                <input type="email"/>
+                <label> Password <span class="special">*</span></label>
+                <input type="password"/>
+                <label> Comfirm Password <span class="special">*</span></label>
+                <input type="password"/>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
